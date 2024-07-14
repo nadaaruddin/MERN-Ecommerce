@@ -25,8 +25,7 @@ import {
     specificProductSuccess,
     updateCurrentUser,
 } from './userSlice';
-const REACT_APP_BASE_URL = "https://e-commerce-gules-tau.vercel.app/";
-
+const REACT_APP_BASE_URL = "https://mern-ecommerce-kzo5.onrender.com";
 
 export const authUser = (fields, role, mode) => async (dispatch) => {
     dispatch(authRequest());
